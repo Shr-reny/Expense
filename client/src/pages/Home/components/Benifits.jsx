@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import ForumIcon from '@mui/icons-material/Forum';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import HeroBgAnimation from '../components/HeroBgAnimation'
+import HeroBgAnimation from './HeroBgAnimation'
 import Diversity3Icon from '@mui/icons-material/Diversity3';
 
 const FeaturesWrapper = styled.section`
@@ -175,7 +175,7 @@ const Benefits = () => {
         <FeaturesWrapper id="benefits">
           <Number>2</Number>
             <FeaturesTitle>Benefits</FeaturesTitle>
-            <FeatureDescription>Discover the many benefits of using our app to manage your personal and team projects.</FeatureDescription>
+            <FeatureDescription>Unleash the power of this app to manage your projects.</FeatureDescription>
             <Content>
                 {/* <HeroBgAnimation style={{ position: 'absolute', top: 20, left: 20, width: '80%', height: '80%', zIndex: -1 }} /> */}
                 <FeaturesContainer>

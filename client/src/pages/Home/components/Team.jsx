@@ -22,21 +22,21 @@ const Title = styled.div`
   color: ${({ theme }) => theme.text};
 `;
 
-const Description = styled.p`
-font-size: 20px;
-line-height: 1.5;
-font-weight:600px;
-width: 100%;
-max-width: 700px;
-text-align: center;
-color: hsl(246,  6%, 65%);
-margin-bottom: 80px;
-@media (max-width: 768px) {
-  width: 90%;
-    font-size: 16px;
-    margin-bottom: 60px;
-}
-`;
+// const Description = styled.p`
+// font-size: 20px;
+// line-height: 1.5;
+// font-weight:600px;
+// width: 100%;
+// max-width: 700px;
+// text-align: center;
+// color: hsl(246,  6%, 65%);
+// margin-bottom: 80px;
+// @media (max-width: 768px) {
+//   width: 90%;
+//     font-size: 16px;
+//     margin-bottom: 60px;
+// }
+// `;
 
 
 const TeamContainer = styled.div`
@@ -54,21 +54,19 @@ const TeamContainer = styled.div`
 
 const Team = () => {
   const member = [{
-    photo: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    name: "Rishav Chanda",
+    photo: "https://i.ibb.co/nsFbTgP/r.jpg",
+    name: "Shruti Swarupa Dhar",
     title: "Full-Stack Developer",
-    bio: "I have expertise in full-stack web development, Android app development, and MERN stack development. I am knowledgeable in various programming languages, frameworks, and technologies and strive to create high-quality, user-friendly applications."
+    bio: "I have hands-on experience in MERN stack development. I also have interest in LLM's and RAG architecture"
   }]
   return (
     <TeamWrapper id="team">
-      <Title>Meet the crew</Title>
-      <Description>We're a small, remote team working on interesting problems at the edge of compute.</Description>
+      <Title>About me</Title>
       <TeamContainer>
         {member.map((member, index) => (
           <TeamMember key={index} photo={member.photo} name={member.name} title={member.title} bio={member.bio} />
         ))}
       </TeamContainer>
-
     </TeamWrapper>
   );
 };

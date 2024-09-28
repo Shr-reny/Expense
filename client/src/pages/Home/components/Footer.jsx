@@ -74,7 +74,7 @@ const Copyright = styled.p`
 function Footer() {
   return (
     <FooterContainer>
-      <Logo>VEXA</Logo>
+      <Logo>PLANIFY</Logo>
       <Nav>
         <NavLink href="#home">Home</NavLink>
         <NavLink href="#features">Features</NavLink>
@@ -84,11 +84,11 @@ function Footer() {
       <SocialMediaIcons>
         <SocialMediaIcon href="#"><FacebookIcon /></SocialMediaIcon>
         <SocialMediaIcon href="#"><TwitterIcon /></SocialMediaIcon>
-        <SocialMediaIcon href="#"><LinkedInIcon /></SocialMediaIcon>
+        <SocialMediaIcon href="https://www.linkedin.com/in/shruti-swarupa-dhar/"><LinkedInIcon /></SocialMediaIcon>
         <SocialMediaIcon href="#"><InstagramIcon /></SocialMediaIcon>
       </SocialMediaIcons>
       <Copyright>
-        &copy; 2023 Vexa. All rights reserved.
+        &copy; 2023 Planify. All rights reserved.
       </Copyright>
     </FooterContainer>
   );
